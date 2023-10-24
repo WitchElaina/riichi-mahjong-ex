@@ -1,0 +1,41 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  ../../calc:
+    specifiers:
+      pyodide: ~0.24.1
+    dependencies:
+      pyodide: 0.24.1
+
+packages:
+
+  /base-64/1.0.0:
+    resolution: {integrity: sha512-kwDPIFCGx0NZHog36dj+tHiwP4QMzsZ3AgMViUBKI0+V5n4U0ufTCUMhnQ04diaRI8EX/QcPfql7zlhZ7j4zgg==}
+    dev: false
+
+  /pyodide/0.24.1:
+    resolution: {integrity: sha512-fkNolNwiv41E2KKCP2bgW+dwr95B+0KSC/WG9WCmlWM9MNFbRVX0rF9i4OikRM78bGeVUvLdVJw8jY17wxKoRQ==}
+    dependencies:
+      base-64: 1.0.0
+      ws: 8.14.2
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: false
+
+  /ws/8.14.2:
+    resolution: {integrity: sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
