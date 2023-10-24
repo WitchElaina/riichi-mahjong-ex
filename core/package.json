@@ -1,6 +1,0 @@
-{
-  "name": "@riichi-mahjong-ex/core",
-  "module": "index.ts",
-  "type": "module",
-  "description": "Core library of riichi mahjong ex"
-}

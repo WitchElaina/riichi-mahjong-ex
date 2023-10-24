@@ -1,6 +1,0 @@
-{
-  "name": "@riichi-mahjong-ex/calc",
-  "module": "index.ts",
-  "type": "module",
-  "description": "Calculate Hu and point using Python library mahjong in TypeScript"
-}
